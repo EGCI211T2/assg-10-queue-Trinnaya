@@ -39,7 +39,7 @@ int Queue::dequeue(){
         if(size==1) tailPtr=NULL;
         --size;
         delete t;
-        cout<<"dequeing "<<value<<endl;
+        cout<<"Dequeing "<<value<<endl;
         return value;
     }
     else {
